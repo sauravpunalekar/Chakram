@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\DestroyShield.cs" />
      <Compile Include="Assets\Scripts\DestroyTarget.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\ScoreCount.cs" />
      <Compile Include="Assets\Scripts\SliderMove.cs" />
      <Compile Include="Assets\Scripts\TargetMovement.cs" />
      <Compile Include="Assets\Scripts\TargetSpawn.cs" />

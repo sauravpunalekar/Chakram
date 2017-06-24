@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DestroyTarget : MonoBehaviour {
+	
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +18,8 @@ public class DestroyTarget : MonoBehaviour {
 	void OnCollisionEnter(Collision col)
 	{
 		Destroy (this.gameObject);
-		Debug.Log ("Hello");
+		Destroy (col.gameObject);
+		ScoreCount.score++;
+		ScoreCount.scoretext.text = "Targets Killed : "+ScoreCount.score+"/"+ScoreCount.reqScore;
 	}
 }
