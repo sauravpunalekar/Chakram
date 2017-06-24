@@ -29,7 +29,6 @@ public class TargetSpawn : MonoBehaviour {
 	}
 
 	void spawn() {
-		Debug.Log (times);
 		if (times >= ScoreCount.reqScore) {
 			CancelInvoke ();
 		} else {

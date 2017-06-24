@@ -1,10 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TargetSpawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreDisplay.cs">
     <Files>
-      <File FileName="Assets\Scripts\DestroyTarget.cs" Line="23" Column="92" />
-      <File FileName="Assets\Scripts\ScoreCount.cs" Line="13" Column="12" />
-      <File FileName="Assets\Scripts\TargetSpawn.cs" Line="21" Column="70" />
+      <File FileName="Assets\Scripts\ScoreDisplay.cs" Line="20" Column="28" />
+      <File FileName="Assets\Scripts\DestroyTarget.cs" Line="23" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

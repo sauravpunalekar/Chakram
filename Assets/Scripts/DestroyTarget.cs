@@ -20,6 +20,7 @@ public class DestroyTarget : MonoBehaviour {
 		Destroy (this.gameObject);
 		Destroy (col.gameObject);
 		ScoreCount.score++;
+		ScoreDisplay.isCollision = true;
 		ScoreCount.scoretext.text = "Targets Killed : "+ScoreCount.score+"/"+ScoreCount.reqScore;
 	}
 }
