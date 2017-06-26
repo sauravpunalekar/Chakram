@@ -106,8 +106,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 45
 --- !u!114 &6
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 0
     width: 564
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -449,9 +449,9 @@ MonoBehaviour:
     height: 522
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: b4060000
     m_LastClickedID: 0
-    m_ExpandedIDs: ecf2ffff00000000
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,19 +531,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.059361015, y: -0.0089838235, z: 0.0005343377, w: 0.99819523}
+    m_Target: {x: -0.05936106, y: 0.00898383, z: -0.0005343381, w: -0.998196}
     speed: 2
-    m_Value: {x: -0.059361015, y: 0.0089838235, z: -0.0005343377, w: -0.99819523}
+    m_Value: {x: -0.05936106, y: 0.00898383, z: -0.0005343381, w: -0.998196}
   m_Size:
-    m_Target: 352.4738
+    m_Target: 1031.0557
     speed: 2
-    m_Value: 352.4738
+    m_Value: 1031.0557
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: -0.05936106, y: 0.00898383, z: -0.0005343381, w: -0.998196}
+  m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
@@ -585,19 +585,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\aksha\Documents\Unity Projects\Chakram
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8260000
-    m_LastClickedID: 9976
-    m_ExpandedIDs: 00000000f82600008a27000000ca9a3bffffff7f
+    m_SelectedIDs: 02250000
+    m_LastClickedID: 9474
+    m_ExpandedIDs: 00000000c4240000a425000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -625,7 +625,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82600008a270000
+    m_ExpandedIDs: 00000000c4240000a4250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,22 +652,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000682600009e260000ae25000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ScoreDisplay
+      m_OriginalName: ScoreDisplay
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 1716
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
