@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreDisplay : MonoBehaviour {
 	public static Text myScore;
 	public static bool isCollision = false;
-	int endScore;
 	// Use this for initialization
 	void Start () {
 		myScore = GameObject.Find ("Canvas/ScoreDisplay").GetComponent<Text> ();
@@ -18,11 +18,12 @@ public class ScoreDisplay : MonoBehaviour {
 		} else {
 			if (myScore.fontSize < 300) {
 				if (ScoreCount.score == 0 || ScoreCount.score == 9) {
-					endScore = ScoreCount.reqScore - 2;
 					if (ScoreCount.score == 0) {
 						myScore.text = "Level Up!";
 					} else {
 						myScore.text = "You Win";
+						SceneManager.LoadScene ("GameOver");
+						CanvasScript.t1 = "You Win!";
 					}
 				} else {
 					myScore.text = ScoreCount.score.ToString ();

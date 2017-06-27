@@ -46,10 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CanvasScript.cs" />
      <Compile Include="Assets\Scripts\ChakramMove.cs" />
      <Compile Include="Assets\Scripts\ChakramSpawnPrefab.cs" />
      <Compile Include="Assets\Scripts\DestroyShield.cs" />
      <Compile Include="Assets\Scripts\DestroyTarget.cs" />
+     <Compile Include="Assets\Scripts\LoadGame.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\ScoreCount.cs" />
      <Compile Include="Assets\Scripts\ScoreDisplay.cs" />

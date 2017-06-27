@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class TargetMovement : MonoBehaviour {
-
+	
 	public int speed;
 	// Use this for initialization
 	void Start () {
@@ -17,6 +20,8 @@ public class TargetMovement : MonoBehaviour {
 		//Debug.Log (this.transform.position.z);
 		if (this.transform.position.z <= 40.0f) {
 			Destroy (this.gameObject);
+			SceneManager.LoadScene ("GameOver");
+			CanvasScript.t1 = "Game Over!";
 		}
 	}
 
