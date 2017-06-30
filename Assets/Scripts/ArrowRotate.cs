@@ -12,7 +12,7 @@ public class ArrowRotate : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (flag==0) {
 			MoveRight ();
 		

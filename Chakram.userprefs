@@ -2,8 +2,19 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ChakramSpawnPrefab.cs">
     <Files>
+      <File FileName="Assets\Scripts\TargetSpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TargetMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SliderMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreCount.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LoadGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyTarget.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyShield.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ChakramSpawnPrefab.cs" Line="33" Column="50" />
+      <File FileName="Assets\Scripts\ChakramMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CanvasScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ArrowRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ChakramSpawnPrefab.cs" Line="35" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

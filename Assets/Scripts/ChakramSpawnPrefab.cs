@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine.UI;
 
 public class ChakramSpawnPrefab : MonoBehaviour {
@@ -10,8 +10,9 @@ public class ChakramSpawnPrefab : MonoBehaviour {
 	public Slider s;
 	public GameObject g2;
 	void Start () {
-		g = AssetDatabase.LoadAssetAtPath ("Assets/Cartoon_Weapon_Pack/Prefab/Shield_03.prefab", typeof(GameObject));
-			g1 = Instantiate (g, new Vector3 (250, 5, 5),Quaternion.Euler(180,0,0))as GameObject;
+		//g = AssetDatabase.LoadAssetAtPath ("Assets/Cartoon_Weapon_Pack/Prefab/Shield_03.prefab", typeof(GameObject));
+		g=Resources.Load("Shield_03",typeof(GameObject));	
+		g1 = Instantiate (g, new Vector3 (250, 5, 5),Quaternion.Euler(180,0,0))as GameObject;
 
 	}
 	
@@ -28,7 +29,7 @@ public class ChakramSpawnPrefab : MonoBehaviour {
 		}
 	}*/
 	void Update(){
-		if (Input.GetKeyUp ("space")) {
+		if (Input.GetKeyUp ("space") || (Input.touchCount>0 && Input.GetTouch(0).phase==TouchPhase.Ended)) {
 			float y = g2.transform.rotation.eulerAngles.y;
 			if (y > 300) {
 			
