@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
-using UnityEditor;
+//using UnityEditor;
 
 public class TargetSpawn : MonoBehaviour {
 
@@ -12,7 +12,8 @@ public class TargetSpawn : MonoBehaviour {
 	int times = 0;
 	// Use this for initialization
 	void Start () {
-		g = AssetDatabase.LoadAssetAtPath ("Assets/Shooting target/Target.prefab", typeof(GameObject));
+		//g = AssetDatabase.LoadAssetAtPath ("Assets/Shooting target/Target.prefab", typeof(GameObject));
+		g = Resources.Load("Target", typeof(GameObject));
 		reshuffle (xcoord);
 	}
 
