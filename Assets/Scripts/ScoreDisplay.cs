@@ -52,6 +52,9 @@ public class ScoreDisplay : MonoBehaviour
 				myScore.fontSize = 14;
 			}
 		}*/
+        levelUp.gameObject.SetActive(false);
+        continueButton.gameObject.SetActive(false);
+        score.gameObject.SetActive(true);
 
         if (isCollision)
         {
@@ -65,12 +68,7 @@ public class ScoreDisplay : MonoBehaviour
             else if (ScoreCount.score == 9)
             {
                 SceneManager.LoadScene("GameOver");
-                CanvasScript.t1 = "You Win!";
             }
-            /*else
-            {
-                isCollision = false;
-            }*/
         }
     }
 }
