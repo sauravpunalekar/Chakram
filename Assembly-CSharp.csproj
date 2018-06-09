@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\DestroyShield.cs" />
     <Compile Include="Assets\Scripts\DestroyTarget.cs" />
     <Compile Include="Assets\Scripts\LoadGame.cs" />
+    <Compile Include="Assets\Scripts\PlayGameButton.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\ScoreCount.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
